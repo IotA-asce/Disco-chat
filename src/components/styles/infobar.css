@@ -1,0 +1,32 @@
+.info-bar{
+    width: 100vw;
+    background-color: #9146FF;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: whitesmoke;
+    align-items: center;
+}
+
+.logo{
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    background-color: white;
+    /* padding: 1em; */
+    border: 1em solid white;
+    background-image: url("../../assets/0018.jpg");
+    background-size: contain;
+}
+
+.info-metrics{
+    margin-left: 2em;
+    font-size: 20px;
+}
+
+/* .logo {
+    height: 10vh;
+    width: 10vh;
+    border-radius: 40px;
+} */
