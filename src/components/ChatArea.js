@@ -1,5 +1,6 @@
 import React from 'react'
 import './styles/chatarea.css'
+import InputSection from './InputSection'
 
 const ChatArea = () => {
 
@@ -23,42 +24,7 @@ const ChatArea = () => {
 
     return (
         <div className="chat-area">
-            <div className="chat-text">
-                <div className="profile-image">
-
-                </div>
-                <div className="actual-text">
-                    <h2>this is a sample text</h2>
-                </div>
-                <div className="reaction">
-                    <button>like</button>
-                    <button>dislike</button>
-                </div>
-            </div>
-            <div className="chat-text">
-                <div className="profile-image">
-
-                </div>
-                <div className="actual-text">
-                    <h2>this is a sample text</h2>
-                </div>
-                <div className="reaction">
-                    <button>like</button>
-                    <button>dislike</button>
-                </div>
-            </div>
-            <div className="chat-text">
-                <div className="profile-image">
-
-                </div>
-                <div className="actual-text">
-                    <h2>this is a sample text</h2>
-                </div>
-                <div className="reaction">
-                    <button>like</button>
-                    <button>dislike</button>
-                </div>
-            </div>
+            <InputSection/>
         </div>
     )
 }

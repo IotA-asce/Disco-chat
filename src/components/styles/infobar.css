@@ -1,9 +1,10 @@
 .info-bar{
-    width: 100vw;
-    background-color: #9146FF;
-    height: 15em;
+    width: 25em;
+    /* background-color: #405499; */
+    background-color: #23305E;
+    height: 100vh;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     color: whitesmoke;
     align-items: center;

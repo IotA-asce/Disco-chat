@@ -2,15 +2,8 @@
     width: 100vw;
     display: flex;
     flex-direction: column;
+    background-color: #405499;
     align-items: center;
     justify-content: center;
-}
-
-.chat-text{
-    width: 40em;
-    padding: 1em;
-    margin: 2em;
-    border: 1px solid black;
-    border-radius: 8px;
-    
+    position: relative;
 }
