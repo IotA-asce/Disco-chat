@@ -1,7 +1,7 @@
 .info-bar{
     width: 100vw;
     background-color: #9146FF;
-    height: 25vh;
+    height: 15em;
     display: flex;
     flex-direction: row;
     justify-content: center;
