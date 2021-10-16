@@ -2,10 +2,62 @@
     bottom: 0;
     width: 100%;
     position: absolute;
-    background-color: #FAFAFA;
+    background-color: #DFDCDC;
+    /* background-color: #FAFAFA; */
     height: 7em;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+.input-field{
+    width: 90%;
+    height: 3em;
+    border-radius: 20px;
+    overflow: hidden;
+    /* position: relative; */
+    /* background-color: #DFDCDC; */
+    background-color: #FAFAFA;
+    display: flex;
+    align-items: center;
+    /* display: ; */
+    /* justify-content: center; */
+
+}
+
+.msg-input{
+    width: 100%;
+    background-color: #FAFAFA;
+    /* background-color: #DFDCDC; */
+    outline: none;
+    border: none;
+    /* border: 1px solid grey; */
+    /* border-radius: 3px; */
+    padding: 1em 4em; 
+    /* position: absolute; */
+    /* top: 50%; */
+    /* transform: translateY(-50%); */
+}
+
+.add-media{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) translateX(0.5em);
+    width: 3em;
+    height: 3em;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+
+.add-emoji{
+    position: absolute;
+    top: 50%; 
+    transform: translateY(-50%);
+    right: 6%;
+    width: 3em;
+    border: 1px solid gray;
+    height: 3em;
+    border-radius: 50%;
+
 }

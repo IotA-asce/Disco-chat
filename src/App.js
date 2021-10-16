@@ -1,5 +1,4 @@
 import './App.css';
-import InputSection from './components/InputSection';
 import InfoBar from './components/InfoBar';
 import ChatArea from './components/ChatArea';
 
